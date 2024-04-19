@@ -1,0 +1,19 @@
+.contact {
+  margin: 10rem auto;
+  &__info {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  &__card {
+    display: flex;
+    justify-content: center;
+    border: gray 0.1rem solid;
+    border-radius: 15px;
+    padding: 0.5rem;
+  }
+  &__link {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+}

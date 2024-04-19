@@ -1,3 +1,5 @@
+@use "./../../styles/partials/mixins" as *;
+
 .project {
   //   border: 1px solid black;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -20,12 +22,6 @@
   }
 
   &__tag {
-    background-color: #007bff; /* Bootstrap primary blue */
-    color: white;
-    padding: 5px 10px;
-    margin-right: 0.5rem;
-    font-size: 14px;
-    border-radius: 15px; /* Rounded corners */
-    transition: background-color 0.3s ease;
+    @include tag;
   }
 }
