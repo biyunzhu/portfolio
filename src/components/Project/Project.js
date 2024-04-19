@@ -7,12 +7,14 @@ function Project({ project }) {
       <img className="project__cover" src={image} alt="The Prairie Garden" />
       <div className="project__info">
         <h3>{title}</h3>
-        <p>{description}</p>
-        {tags.map((tag, index) => (
-          <span className="project__tag" key={index}>
-            {tag}
-          </span>
-        ))}
+        {/* <p>{description}</p> */}
+        <div className="project__tags">
+          {tags.map((tag, index) => (
+            <span className="project__tag" key={index}>
+              {tag}
+            </span>
+          ))}
+        </div>
       </div>
     </section>
   );

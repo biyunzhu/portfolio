@@ -1,3 +1,5 @@
+@use "./../../styles/partials/colors" as *;
+
 .contact {
   margin: 10rem auto;
   &__info {
@@ -10,10 +12,13 @@
     justify-content: center;
     border: gray 0.1rem solid;
     border-radius: 15px;
-    padding: 0.5rem;
+    padding: 0.5rem 1rem;
   }
   &__link {
     font-size: 1.25rem;
     font-weight: 600;
+    &:hover {
+      color: $Gradient;
+    }
   }
 }

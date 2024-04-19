@@ -2,7 +2,7 @@ import "./Header.scss";
 function Header() {
   return (
     <header>
-      <nav>
+      <nav className="nav">
         <ul className="nav__list">
           <li>
             <a href="#about">About</a>

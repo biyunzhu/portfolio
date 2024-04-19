@@ -10,7 +10,7 @@ function Homepage() {
     <section className="homepage">
       <Hero />
       <section id="projects" className="projects">
-        <h2>Projects</h2>
+        <h2 className="projects__title">Projects</h2>
         <ProjectList />
       </section>
       <Contact />

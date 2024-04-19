@@ -1,3 +1,5 @@
+@use "../../styles/partials/colors" as *;
+
 .hero {
   display: flex;
   margin: 10rem auto;
@@ -12,7 +14,7 @@
   }
   &__title {
     &--highlight {
-      background: linear-gradient(270deg, #df8909 10%, #b415ff 100%);
+      background: $Gradient;
       background-clip: text;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;

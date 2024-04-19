@@ -1,9 +1,13 @@
+@use "./colors" as *;
+
 @mixin tag {
-  background: linear-gradient(270deg, #df8909 10%, #b415ff 100%);
-  color: white;
+  //   background: linear-gradient(270deg, #df8909 10%, #b415ff 100%);
+  //   color: white;
   padding: 5px 10px;
-  margin-right: 0.5rem;
+  //   margin-right: 0.5rem;
   font-size: 14px;
+  border: $FontPrimaryColor 1px solid;
   border-radius: 15px;
-  transition: background-color 0.3s ease;
+  //   transition: background-color 0.3s ease;
+  white-space: nowrap;
 }
