@@ -3,42 +3,49 @@
     "title": "The Prairie Garden",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "tags": ["Website", "Catalogue"],
-    "image": "/images/The-Prairie-Garden-2024.png",
+    "cover": "/images/The-Prairie-Garden-2024.png",
     "link": "https://example.com/project1"
   },
   {
     "title": "On-site campaign",
     "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "tags": ["X-stands", "Flyers", "Posters", "Banners"],
-    "image": "/images/weibo-campaign-poster.jpg",
+    "cover": "/images/weibo-campaign-poster.jpg",
     "link": "https://example.com/project3"
   },
   {
     "title": "Campus event",
     "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "tags": ["Posters"],
-    "image": "/images/Badminton-Competition-IPCAS-poster.jpg",
+    "cover": "/images/Badminton-Competition-IPCAS-poster.jpg",
     "link": "https://example.com/project3"
   },
   {
     "title": "Digital Marketing",
     "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     "tags": ["Thumbnails", "Product descriptions"],
-    "image": "/images/xhanzi-thumbnail-1.png",
-    "link": "https://example.com/project2"
+    "cover": "/images/xhanzi-thumbnail-1.png",
+    "link": "https://example.com/project2",
+    "images": [
+      "/images/xhanzi-thumbnail-1.png",
+      "/images/xhanzi-thumbnail-2.png",
+      "/images/xhanzi-thumbnail-3.png",
+      "/images/xhanzi-poster-1.png",
+      "/images/xhanzi-poster-2.png"
+    ]
   },
   {
     "title": "Company marketing material",
     "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "tags": ["Booklet", "Greeting Cards", "Stamps"],
-    "image": "/images/bmind-card-front.jpg",
+    "cover": "/images/bmind-card-front.jpg",
     "link": "https://example.com/project3"
   },
   {
     "title": "Event marketing",
     "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "tags": ["Posters", "Flyers", "Cards"],
-    "image": "/images/33home-card-orange.jpg",
+    "cover": "/images/33home-card-orange.jpg",
     "link": "https://example.com/project3"
   }
 ]

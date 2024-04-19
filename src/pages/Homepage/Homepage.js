@@ -3,18 +3,19 @@ import "./Homepage.scss";
 import ProjectList from "../../components/ProjectList/ProjectList";
 import Hero from "../../components/Hero/Hero";
 import Contact from "../../components/Contact/Contact";
-import Footer from "../../components/Footer/Footer";
 
-function Homepage() {
+function Homepage({ projects, updateActiveDesign }) {
   return (
     <section className="homepage">
       <Hero />
       <section id="projects" className="projects">
         <h2 className="projects__title">Projects</h2>
-        <ProjectList />
+        <ProjectList
+          projects={projects}
+          updateActiveDesign={updateActiveDesign}
+        />
       </section>
       <Contact />
-      <Footer />
     </section>
   );
 }

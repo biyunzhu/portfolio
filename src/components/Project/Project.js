@@ -1,10 +1,11 @@
 import "./Project.scss";
+import { Link } from "react-router-dom";
 
-function Project({ project }) {
-  const { title, description, tags, image, link } = project;
+function Project({ project, index }) {
+  const { title, description, tags, cover, link } = project;
   return (
-    <section className="project">
-      <img className="project__cover" src={image} alt="The Prairie Garden" />
+    <Link className="project" to={`/designs/${index}`}>
+      <img className="project__cover" src={cover} alt="The Prairie Garden" />
       <div className="project__info">
         <h3>{title}</h3>
         {/* <p>{description}</p> */}
@@ -16,7 +17,7 @@ function Project({ project }) {
           ))}
         </div>
       </div>
-    </section>
+    </Link>
   );
 }
 
