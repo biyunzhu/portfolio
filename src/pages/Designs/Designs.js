@@ -9,7 +9,7 @@ function Designs({ projects, activeDesign, updateActiveDesign }) {
   const designsNavItems = projects.map((design) => design.title);
   useEffect(() => {
     updateActiveDesign(id);
-  }, [id]);
+  }, [id, updateActiveDesign]);
 
   //   console.log(designsNavItems);
   return (
