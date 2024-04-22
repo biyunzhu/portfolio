@@ -4,21 +4,36 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "tags": ["Website", "Catalogue"],
     "cover": "/images/The-Prairie-Garden-2024.png",
-    "link": "https://example.com/project1"
+    "link": "https://example.com/project1",
+    "images": ["/images/The-Prairie-Garden-2024.png"]
   },
   {
     "title": "On-site campaign",
     "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "tags": ["X-stands", "Flyers", "Posters", "Banners"],
     "cover": "/images/weibo-campaign-poster.jpg",
-    "link": "https://example.com/project3"
+    "link": "https://example.com/project3",
+    "images": [
+      "/images/weibo-campaign-poster.jpg",
+      "/images/weibo-calendar.jpg",
+      "/images/weibo-jiujiang-x-banner.jpg",
+      "/images/weibo-jiujiang-flyer.jpg",
+      "/images/weibo-jiujiang-flyer-horizontal.jpg"
+    ]
   },
   {
     "title": "Campus event",
     "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "tags": ["Posters"],
     "cover": "/images/Badminton-Competition-IPCAS-poster.jpg",
-    "link": "https://example.com/project3"
+    "link": "https://example.com/project3",
+    "images": [
+      "/images/event-poster-harmony.jpg",
+      "/images/event-poster-new-year.jpg",
+      "/images/event-poster-pingpong.jpg",
+      "/images/event-poster-psychology-campaign.jpg",
+      "/images/event-poster-student-recruitment.jpg"
+    ]
   },
   {
     "title": "Digital Marketing",
@@ -31,6 +46,7 @@
       "/images/xhanzi-thumbnail-2.png",
       "/images/xhanzi-thumbnail-3.png",
       "/images/xhanzi-poster-1.png",
+
       "/images/xhanzi-poster-2.png"
     ]
   },
@@ -39,13 +55,31 @@
     "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "tags": ["Booklet", "Greeting Cards", "Stamps"],
     "cover": "/images/bmind-card-front.jpg",
-    "link": "https://example.com/project3"
+    "link": "https://example.com/project3",
+    "images": [
+      "/images/bmind-card-front.jpg",
+      "/images/bmind-card-back.jpg",
+      "/images/bmind-card-white-outside.jpg",
+      "/images/bmind-card-white-inside.jpg",
+      "/images/EAP-booklet-1.jpg",
+      "/images/EAP-booklet-2.jpg",
+      "/images/EAP-booklet-3.jpg",
+      "/images/EAP-booklet-4.jpg"
+    ]
   },
   {
     "title": "Event marketing",
     "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
     "tags": ["Posters", "Flyers", "Cards"],
     "cover": "/images/33home-card-orange.jpg",
-    "link": "https://example.com/project3"
+    "link": "https://example.com/project3",
+    "images": [
+      "/images/33home-card-orange.jpg",
+      "/images/ganchadu-deskcard-red.jpg",
+      "/images/money-flyer-front.jpg",
+      "/images/weibo-campaign-poster-1.jpg",
+      "/images/money-flyer-back.jpg",
+      "/images/weibo-campaign-poster-2.jpg"
+    ]
   }
 ]

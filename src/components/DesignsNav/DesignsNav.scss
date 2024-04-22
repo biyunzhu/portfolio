@@ -1,8 +1,15 @@
+@use "../../styles/partials/colors" as *;
 .designs-nav {
-  width: 100%;
+  min-width: 20rem;
   display: flex;
   flex-direction: column;
   &__item {
     cursor: pointer;
+    &--selected {
+      background: $Gradient;
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
   }
 }

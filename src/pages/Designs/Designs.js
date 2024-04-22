@@ -16,8 +16,9 @@ function Designs({ projects, activeDesign, updateActiveDesign }) {
     <section id="designs" className="designs">
       <DesignsNav
         designsNavItems={designsNavItems}
-        activeDesign={activeDesign}
-        updateActiveDesign={updateActiveDesign}
+        id={id}
+        // activeDesign={activeDesign}
+        // updateActiveDesign={updateActiveDesign}
       />
       <DesignsDetail design={activeDesign} />
     </section>
