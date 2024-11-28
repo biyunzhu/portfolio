@@ -11,8 +11,14 @@ function Contact() {
         <a className="contact__link" href="https://linkedin.com/in/biyunzhu/">
           <div className="contact__card">LinkedIn</div>
         </a>
-        <a className="contact__link" href="https://github.com/in/biyunzhu/">
+        <a className="contact__link" href="https://github.com/biyunzhu/">
           <div className="contact__card">GitHub</div>
+        </a>
+        <a
+          className="contact__link"
+          href="https://www.upwork.com/freelancers/~01c49dc63d23e5919d"
+        >
+          <div className="contact__card">Upwork</div>
         </a>
       </div>
     </section>
